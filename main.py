@@ -77,7 +77,7 @@ def mejor_modelo():
 
 	return json.dumps({'resultado_modelos': datos})
     	
-    	
+# endpoint para carga de archivos
 @app.route('/guardar_en_db', methods=['POST'])
 def upload_file():
 	# check if the post request has the file part
